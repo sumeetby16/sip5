@@ -1,12 +1,11 @@
-# simple_interest.py
 
 import sys
 
 if len(sys.argv) == 4:
     script_name=sys.argv[0]
-    p = float(sys.argv[1])  # Principal
-    r = float(sys.argv[2])  # Rate
-    t = float(sys.argv[3])  # Time
+    p = float(sys.argv[1])  
+    r = float(sys.argv[2])  
+    t = float(sys.argv[3])  
         
 else:
     script_name=sys.argv[0]
